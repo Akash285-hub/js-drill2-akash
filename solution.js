@@ -71,7 +71,5 @@ function problem4(){
     return group;
 }
 
- 
-
 
 module.exports={problem1,problem2,problem3,problem4};
