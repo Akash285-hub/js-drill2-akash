@@ -21,6 +21,19 @@ function problem1(){
     return `Users which are interested in playing video games are : ${games}`;
  }
 
+ // Q2 Find all users staying in Germany.
+function problem2(users){
+    userstay=[];
+    for(let i=0 ; i<Users.length ; i++){
+     let data =Users[i][1];
+     if(data.nationality==="Germany"){
+         userstay.push(Users[i][0])
+     }
+    }
+    return `Users Staying in Germany : ${userstay}`;
+ }
+
+ 
 
 
-module.exports={problem1};
+module.exports={problem1,problem2};
